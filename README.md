@@ -108,11 +108,7 @@ def lz78_encode(sequence):
             sequence = sequence[1:]
     
     return encoded, dictionary
-  ## Results
 
-Sequence Length	Encoded Bits	Compression Ratio	Bits/Symbol
-20	96	0.6000	4.8000
-5000	14083	0.3521	2.8166
 python leyan_1211439.py
 📂 Documentation
 Full ReportDr. Wael Hashlamoun - Supervisor
@@ -125,4 +121,5 @@ Dr. Wael Hashlamoun - Supervisor
 
 
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python"> <img src="https://img.shields.io/badge/License-MIT-green"> </p> ```
+
 
